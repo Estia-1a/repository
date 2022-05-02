@@ -46,11 +46,13 @@
           </div>
         </div>
       </nav>
-<div style="margin-top: 50px; margin-bottom: 50px">
+
+
+<div style="margin-top: 30px; margin-bottom: 30px">
   <center>
       <h4>
         <div class="d-inline p-2 rounded text-white shadow" style="background-color: #32353c; border:2px solid rgb(169, 169, 169);">
-            Trier
+          Config 
         </div>
     </h4>
   </center>
@@ -82,21 +84,59 @@
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                git init "le_nom_de_votre_repo_git"
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                Initialise un nouveau repo git
-            </div>
-          </div>
-        </div>
       </div>
 
 
+
+      <div style="margin-top: 30px; margin-bottom: 30px">
+        <center>
+            <h4>
+              <div class="d-inline p-2 rounded text-white shadow" style="background-color: #32353c; border:2px solid rgb(169, 169, 169);">
+                Init 
+              </div>
+          </h4>
+        </center>
+        </div>
       
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  git config –global user.name
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                  Modifie le nom d’utilisateur dans votre config git
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  git config –global user.email
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                  Modifie l’adresse email dans votre configuration git
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  git init "le_nom_de_votre_repo_git"
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                  Initialise un nouveau repo git
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
   </body>
 </html>
